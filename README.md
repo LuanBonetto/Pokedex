@@ -1,6 +1,7 @@
 # Projeto Pokedex
 
 A documentação está separada entre Front-end e Back-end!
+Esse projeto foi criado em componentes de classe, atualmente trabalho somente com componentes funcionais e usando as versões mais recentes dos hooks!
 
 ## Front-End
 
