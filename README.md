@@ -28,7 +28,7 @@ Esse projeto foi criado em componentes de classe, atualmente trabalho somente co
 
 - Actions: A maioria da lógica de negócios e efeitos colaterais são implementados aqui.
 
-- Components :Aqui se encontram os Componentes React (Estão conectados com o Redux)
+- Components: Aqui se encontram os Componentes React (Estão conectados com o Redux)
 
 - Reducers: Responsável por receber o estado e uma action, decide o que fazer a partir da action e retorna um novo estado.
 
@@ -49,7 +49,7 @@ Esse projeto foi criado em componentes de classe, atualmente trabalho somente co
     Para rodar a aplicação na porta localhost:3000
 
 ### :thinking: O que dá para fazer na aplicação?
-Na primeira vez que a página é aberta ela irá mostrar de padrão os 12 primeiros pokemons  (todos estão ordenados de acordo do o Pokedex Number).
+Na primeira vez que a página é aberta ela irá mostrar de padrão os 12 primeiros pokemons  (todos estão ordenados de acordo com o Pokedex Number).
 
 - Visualizando Detalhes dos Pokemons: Os Pokemons estão organizados em cards onde é possível visualizar seu sprite, pokedex number, nome e tipos. Clicando no olho no cando do card um modal aparece exibindo mais detalhes do pokemon.
 
@@ -80,15 +80,15 @@ Também é possivel digitar as iniciais assim exibindo todos os pokemons que tiv
     │
     ├── data
     │   
-    └──upresentation
+    └──presentation
             └──endpoints
 ```
 
 - Business: Aqui se encontra as regras de negócio da aplicação. Ela é composta por entidades, gateways(interfaces de funções) e casos de uso que são responsáveis por tratar os inputs, fazer validações, fazer a comunicação do banco com outros serviços e criar o corpo de respostas.
 
-- Data: Aqui ficam as implementações referentes ao banco de dados. (Os use case são capazes usá-las sem precisar saber se o banco é SQL, Firestore, MongoDB ou qualquer outro)
+- Data: Aqui ficam as implementações referentes ao banco de dados. (Os usecases são capazes usá-las sem precisar saber se o banco é SQL, Firestore, MongoDB ou qualquer outro)
 
-- Presentation: É a camada responsável por tratar a comunicação do sistema com fontes externas. São compostas por funções chamadas de endpoints que recebem o input e convocam o use case adequado
+- Presentation: É a camada responsável por tratar a comunicação do sistema com fontes externas. São compostas por funções chamadas de endpoints que recebem o input e convocam o usecase adequado
 
 ### :computer: Rodando a aplicação
 Antes de tudo será necessário digitar no terminal o comando: 
@@ -127,6 +127,7 @@ Esse endpoint retorna um pokemon de acordo com seu id passado como parâmetro.
 Por fim vou manter as aplicações funcionando para que possa fazer o teste.
 Front: https://pokedex-redfox.surge.sh/
 Back: https://redfox-pokedex.herokuapp.com/
+⚠️ banco de dados fora do ar
 
 
 
